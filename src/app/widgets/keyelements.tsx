@@ -104,8 +104,8 @@ const Elements = () => {
           })}
         </div>
       </div>
-      <div className="p-4">
-        <Image src={key} alt="Key Elements Of A Healthy Lifestyle" />
+      <div className="p-4 flex justify-center items-center shadow-xl rounded-lg">
+        <Image src={key} alt="Key Elements Of A Healthy Lifestyle" className="max-w-[100%] max-h-[70%]"/>
       </div>
     </section>
   );
