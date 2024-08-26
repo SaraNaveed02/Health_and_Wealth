@@ -1,10 +1,15 @@
 import Image from "next/image";
+import food from '../../../public/image/food.jpg'
 import yello from '../../../public/image/yello.jpeg'
 const Contact = () => {
   return (
-   <section className="max-w-screen-lg px-4 py-3">
-      <form action={"https://formspree.io/f/mqazerzr"} method="POST">
-   <div className=" gap-7 flex flex-col justify-center items-center">
+   <section className="max-w-screen-lg px-4 py-3 ">
+      <form action={"https://formspree.io/f/mqazerzr"} method="POST" >
+  <div className="grid grid-cols-2 gap-4 lg:ml-20 ml-20 ">
+  <div className="lg:ml-32 mr-6 hidden md:block">
+<Image src={food} alt="vegetables" className="max-w-90 max-h-90"/>
+  </div>
+     <div className=" gap-7 flex flex-col justify-center items-center  ">
      <h1 className="text-4xl font-bold text-center ">Contact</h1>
      <div className=" ">
        <input
@@ -38,7 +43,9 @@ const Contact = () => {
        </button>
      </div>
    </div>
- </form>
+
+   </div>
+</form>
    </section> );
 };
 

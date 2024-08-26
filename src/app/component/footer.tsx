@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="md:hidden max-w-screen-lg mx-auto">
+    <section className=" max-w-screen-lg mx-auto">
       <div className="bg-black w-auto h-full  text-white">
         <div className="flex items-center text-center justify-center pt-4">
           <Image src={logo2} width={24} height={24} alt="logo" />
